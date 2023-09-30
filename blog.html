@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>MicroBlog</title>
+</head>
+<body>
+    <header>
+        <h1>MicroBlog</h1>
+    </header>
+    
+    <main>
+        <div class="post-form">
+            <textarea id="post-content" placeholder="Write your post..."></textarea>
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="post-button">Post</button>
+        </div>
+        
+        <div class="feed">
+            <!-- Display posts here -->
+        </div>
+        <div class="post-actions">
+            <button class="like-button" onclick="toggleLike(this)">👍</button>
+            <button class="dislike-button" onclick="toggleDislike(this)">👎</button>
+            <button class="delete-button" onclick="deletePost(this)">🗑️</button>
+        </div>
+        
+    </main>
+    
+    <script src="js.js"></script>
+</body>
+</html>

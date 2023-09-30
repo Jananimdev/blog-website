@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.post-form {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feed {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+/* ... Previous styles ... */
+
+.post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.post-actions .like-button, .post-actions .dislike-button {
+    font-size: 1.0rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+#image-upload {
+    margin-top: 1rem;
+}
+
+
+.post img {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+/* ... Previous styles ... */
+
+/* Styling for the image upload input */
+#image-upload {
+    margin-top: 1rem;
+}
+
+/* Styling for images in posts */
+.post img {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+/* Styling for the delete button */
+.post-actions .delete-button {
+    color: #f44336; /* Red color for delete button */
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
